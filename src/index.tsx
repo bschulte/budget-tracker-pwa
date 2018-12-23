@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "animate.css/animate.min.css";
+import "@fortawesome/fontawesome-pro/css/all.min.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
