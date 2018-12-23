@@ -8,7 +8,5 @@ export const PageContainer = ({
   children: any;
   className?: string;
 }) => {
-  return (
-    <div className={classNames(className, "p-4 text-blue")}>{children}</div>
-  );
+  return <div className={classNames(className, "p-1")}>{children}</div>;
 };
