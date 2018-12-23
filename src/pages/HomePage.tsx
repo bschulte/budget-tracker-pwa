@@ -1,5 +1,6 @@
 import * as React from "react";
+import { PageContainer } from "../components/core/PageContainer";
 
 export const HomePage = () => {
-  return <div className="animated fadeIn">Home Page</div>;
+  return <PageContainer>Home Page</PageContainer>;
 };
